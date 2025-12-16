@@ -1,0 +1,25 @@
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+# Biology/Bioinformatics
+biopython>=1.81
+
+# Deep Learning (choose one based on your GPU)
+torch>=2.0.0  # For NVIDIA GPUs
+# tensorflow>=2.13.0  # Alternative if you prefer TensorFlow
+
+# Transformers for Protein Language Models
+transformers>=4.30.0
+sentencepiece>=0.1.99
+
+# GO Ontology parsing
+obonet>=1.0.0
+networkx>=3.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Utilities
+joblib>=1.3.0
