@@ -58,6 +58,21 @@ Added 258 ancestor terms
  Saved GO parser to go_parser.pkl
 
 ================================================================================
-GO PARSER READY!
-You can now use this parser in your modeling pipeline
-================================================================================
+GO PARSER READY!You can now use this parser in your modeling pipeline
+
+Now user can input the >20 length protein sequence :
+Molecular Function (MFO):
+
+What the protein DOES at molecular level
+Examples: "kinase activity", "DNA binding", "transporter"
+
+- Biological Process (BPO):
+
+What PATHWAYS/PROCESSES it's involved in
+Examples: "cell division", "immune response", "metabolism"
+
+- Cellular Component (CCO):
+
+WHERE it's located in the cell
+Examples: "nucleus", "membrane", "cytoplasm"
+
