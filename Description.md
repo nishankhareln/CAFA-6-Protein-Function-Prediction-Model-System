@@ -1,5 +1,12 @@
 # CAFA 6 Protein Function Prediction
 
+> **Note — read first.** This is a conceptual / design write-up of the *intended*
+> end-to-end pipeline. The embedding-extraction, model-training, and prediction
+> stages are **not yet implemented** in this repository, and every performance
+> figure below (F1, F-max, training times, "Expected Performance" tables) is an
+> **illustrative target, not a measured result**. See [README.md](README.md) for
+> the actual implemented status and verified numbers.
+
 ## 🧬 Project Overview
 
 This project implements a deep learning pipeline for predicting protein functions using the **CAFA 6 (Critical Assessment of Protein Function Annotation)** dataset. The goal is to predict Gene Ontology (GO) terms for proteins based on their amino acid sequences.

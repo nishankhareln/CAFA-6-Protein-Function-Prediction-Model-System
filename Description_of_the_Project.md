@@ -1,5 +1,13 @@
 # CAFA 6 Protein Function Prediction - Detailed Explanations
 
+> **Note — read first.** This is a long-form conceptual explanation of the
+> *intended* approach. It is written as if the full pipeline has been run, but the
+> embedding-extraction, model-training, and prediction stages are **not yet
+> implemented** in this repository, and the performance figures quoted (e.g. F-max
+> in the 0.35–0.45 range, ~40 min embedding time, ~90 min training) are
+> **illustrative targets, not measured results**. See [README.md](README.md) for
+> the actual implemented status and verified numbers.
+
 ##  What is Protein Function Prediction and Why Does It Matter?
 
 Proteins are the fundamental building blocks of life - they're like the machinery that makes living organisms work. Every cell in your body contains thousands of different proteins, and each protein has a specific job to do. Some proteins act as enzymes that speed up chemical reactions, others transport molecules around the cell, some provide structural support, and others regulate gene expression. Understanding what a protein does - its "function" - is absolutely crucial for modern biology and medicine.
